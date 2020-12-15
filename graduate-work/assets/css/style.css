@@ -1,0 +1,135 @@
+
+header {
+    height: 6vh;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+}
+
+.nav > li > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/top-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-visual{
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    font-size: 70px;
+}
+
+.descripiton {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.about-cres {
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.about-contents {
+    margin: 0 200px;
+    /* 行間をあけるコード */
+    line-height: 2;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    /* ボックスの高さを調整 */
+    margin: 30px auto 0;
+    border-radius: 10px;
+}
+
+.box > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 下記、雪を降らせるコード */
+.snow {
+    position: fixed;
+    top: -5%;
+  
+    /*　雪の大きさ　*/
+    font-size: 20px;
+  
+    /* 雪の色 */
+    color: snow;
+  
+    /* 雪 */
+    text-shadow: 
+        5vw -200px 0,
+       10vw -400px 0,
+       20vw -500px 0,
+       30vw -580px 0,
+       39vw -250px 0,
+       42vw -340px 0,
+       56vw -150px 0,
+       63vw -180px 0,
+       78vw -220px 0,
+       86vw -320px 0,
+       94vw -170px 0;
+  
+    animation: anim 5s linear infinite;
+  }
+  
+  @keyframes anim{
+    100%{
+      top: 150%;
+      color: transparent;
+    }
+  }
+  /* 上記までが雪を降らせるコード */
+
+.service-contents {
+    height: 100vh;
+    width: 100vw;
+    background-color: #efefef;
+    margin-top: 100px;
+}
+
+.service-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.service-title {
+    font-size: 200%;
+    font-weight: bold;
+}
