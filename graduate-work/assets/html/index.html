@@ -12,20 +12,16 @@
 <body>
     <div class="top-page">
         <header>
-            <div class="header-left">
                 <img class="logo" src="../img/logo-white.png" alt="logo">
-            </div>
-            <div class="header-right">
                 <ul class="nav">
                     <li>
-                        <a href="./aboutus.html">About Us</a>
-                        <a href="#ourservice">Our Service</a>
-                        <a href="#news">News</a>
-                        <a href="./contact.html">Contact</a>
-                        <a href="https://cyres.jp/">Blog</a>
+                        <a href="./aboutus.html" class="item-under"><span class="item-text">About Us</span></a>
+                        <a href="#ourservice" class="item-under"><span class="item-text">Our Service</span></a>
+                        <a href="#news" class="item-under"><span class="item-text">News</span></a>
+                        <a href="./contact.html" class="item-under"><span class="item-text">Contact</span></a>
+                        <a href="https://cyres.jp/" class="item-under"><span class="item-text">Blog</span></a>
                     </li>
                 </ul>
-            </div>
         </header>
         <main>
             <div class="main-visual">
@@ -52,13 +48,58 @@
     <section id="ourservice">
         <div class="service-contents">
             <h2 class="service-title">Our Service</h2>
-            <p>わたしたちのサービス</p>
+            <p class="service-description">わたしたちのサービス</p>
+            <div class="service-box">
+                <div class="service-item"><span class="service-bold">情報漏えい監視</span>
+                    <p class="item-description">
+                        メールアドレス、パスワードなどの個人情報やアカウント情報、クレジットカードなどの情報漏えい監視サービスです。セキュリティ対策のポイントをお伝えし、情報漏えい対策をサポートします。<br>
+                    </p>
+                    <a href="https://cyres.jp/service" class="service-details">Read More...</a>
+                </div>
+                <div class="service-item"><span class="service-bold">フィッシングサイトの監視</span>
+                    <p class="item-description">新規ドメインの登録状況やフィッシング情報を監視し、フィッシング攻撃の予兆を把握するサービスです。2営業日以内に、ドメインに対するフィッシングサイトのレポートの結果をお伝えします。
+                    </p>
+                    <a href="https://cyres.jp/service" class="service-details">Read More...</a>
+                </div>
+                <div class="service-item"><span class="service-bold">情報漏えい調査</span>
+                    <p class="item-description">
+                        メールアドレス、パスワードなどの個人情報やアカウント情報、クレジットカードなどの情報漏えい監視サービスです。セキュリティ対策のポイントをお伝えし、情報漏えい対策をサポートします。
+                    </p>
+                    <a href="https://cyres.jp/service" class="service-details">Read More...</a>
+                </div>
+            </div>
         </div>
     </section>
-
+    <section id="news">
+        <div class="news-contents">
+            <h2 class="news-title">News</h2>
+            <p class="news-description">最新ニュース</p>
+            <div class="news-row1">
+                <p class="news1"><span class="orange">2020.04.17</span>　<a
+                        href="https://dot.asahi.com/wa/2020111700048.html?page=1">AERA
+                        dot.「カプコンへのサイバー攻撃」についてのコメントが掲載されました。</a></p>
+                <p class="news2"><span class="orange">2020.10.23</span>　<a
+                        href="https://publications.asahi.com/ecs/detail/?item_id=22283">週刊朝日2020年10月23日号「ドコモ口座めぐる不正引き出し」についての記事が掲載されました。</a>
+                </p>
+                <p class="news3"><span class="orange">2019.08.19</span>　<a
+                        href="https://news.mynavi.jp/kikaku/20190819-873863/">マイナビニュースにインタビュー記事が掲載されました。</a></p>
+            </div>
+        </div>
+        <div class="blog-contents">
+            <a href="https://cyres.jp/" class="blog-link">Read Our Blog</a>
+        </div>
+    </section>
     </main>
-    <footer>
-        Copyright © CyberResearch. All Rights Reserved.
+    <footer id="footer">
+        <ul class="footer-nav">
+            <li>
+                <a href="./aboutus.html">About Us</a>
+                <a href="#ourservice">Our Service</a>
+                <a href="#news">News</a>
+                <a href="./contact.html">Contact</a>
+                <a href="https://cyres.jp/">Blog</a>
+        </ul>
+        <div class="footer-last">Copyright © CyberResearch. All Rights Reserved.</div>
     </footer>
 </body>
 
